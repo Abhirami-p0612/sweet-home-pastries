@@ -181,7 +181,7 @@ header {
     margin-top: 10px;
      font-size: clamp(18px, 1.3vw, 27px);
     /* width: clamp(300px, 5.3vh,500px); */
-     max-width: 900px;
+     max-width: 1000px;
     line-height: 1.7;
     animation: fadeIn 2s ease;
 }
