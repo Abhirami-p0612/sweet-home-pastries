@@ -674,7 +674,7 @@ header {
         
     }
 }
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 769px) and (max-width: 1024px) and (min-height: 600px){
 
      .page-sweet-home,
     .page-collection,
