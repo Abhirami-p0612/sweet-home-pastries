@@ -451,6 +451,7 @@ header {
         margin: 12px 3%;
         padding: 10px 12px;
         height: auto;
+        position: relative;
     }
 
     .logo {
@@ -469,7 +470,7 @@ header {
         position: absolute;
         right: 0;
         top: 100%;
-        width: 30%;
+        min-width: 90px;
         padding: 20px;
 
         background: rgba(20, 10, 8);
