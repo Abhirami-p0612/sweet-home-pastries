@@ -169,7 +169,7 @@ header {
 }
 
 .sweet-home > h1 {
-    margin-top: 8%;
+   margin-top: clamp(30px, 4vw, 60px);
     font-size: clamp(68px, 5vw, 90px);
     font-weight: bold;
     color: #DAA425;
@@ -191,7 +191,7 @@ header {
     align-items: center;
     justify-content: space-between;
     gap: 10px;
-    margin-top: 7.5%;
+     margin-top: clamp(20px, 3vw, 50px);
     flex-wrap: nowrap;
 }
 
@@ -208,7 +208,7 @@ header {
 }
 
 .explore > img {
-   width: clamp(750px, 60vh,1000px);
+   width: clamp(600px, 45vw, 900px);
     height: auto;
     filter: drop-shadow(
         0 40px 12px rgba(0, 0, 0, 0.5)
@@ -289,7 +289,7 @@ header {
     
     justify-content: center;
       margin-bottom: 100px;
-      margin-top: 5%;
+      margin-top: clamp(20px, 3vw, 50px);
 }
 .container-c > h1 {
      font-size: clamp(48px, 4vw, 70px);
@@ -323,7 +323,7 @@ header {
     0 8px 32px 0 rgba(0, 0, 0, 0.2),
     inset 0 0 12px rgba(255, 255, 255, 0.2);
     padding: 20px;
-    width: 320px;
+    width: clamp(300px, 22vw, 380px);
   text-align: center;
   color: #ffffff;
   flex-shrink: 0;  
@@ -581,7 +581,7 @@ header {
         gap: 14px;
         width: calc(100vw - 24px);
         margin: 0 auto;
-        padding: 12px 20px 12px 12px;
+        padding: 20px 20px 12px 12px;
         overflow-x: auto;
     }
     .collection::-webkit-scrollbar {
@@ -700,7 +700,7 @@ header {
 
     .explore > img {
         /* width: 550px; */
-         width: clamp(500px, 35vh,800px);
+        width: clamp(450px, 40vw, 700px);
         height: auto;
         margin-left: 5%;
     }
@@ -722,7 +722,7 @@ header {
 
     .collection {
         gap: 30px;
-        padding: 20px;
+        padding: 30px;
     }
 
     .item {
