@@ -480,7 +480,7 @@ header {
         gap: 50px;
 
         border-radius: 0 10px 10px 10px;
-        z-index: 100;
+        z-index: 9999;
     }
 
     .nav-open {
