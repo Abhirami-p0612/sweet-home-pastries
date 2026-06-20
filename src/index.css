@@ -179,7 +179,7 @@ header {
 
 .sweet-home > p {
     margin-top: 10px;
-     font-size: clamp(25px, 1.5vw, 27px);
+     font-size: clamp(18px, 1.3vw, 27px);
     /* width: clamp(300px, 5.3vh,500px); */
      max-width: 900px;
     line-height: 1.7;
@@ -211,7 +211,7 @@ header {
 }
 
 .explore > img {
-   width: clamp(600px, 45vw, 900px);
+   width: clamp(750px, 60vh, 1000px);
     height: auto;
     filter: drop-shadow(
         0 40px 12px rgba(0, 0, 0, 0.5)
