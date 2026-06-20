@@ -77,10 +77,6 @@ body {
 .page-sweet-home {
     min-height: 100vh;
 }
-.page-sweet-home {
-    display: flex;
-    flex-direction: column;
-}
 
 .page-story {
     display: flex;
@@ -173,7 +169,7 @@ header {
 }
 
 .sweet-home > h1 {
-   margin-top: clamp(30px, 4vw, 60px);
+   /* margin-top: clamp(30px, 4vw, 60px); */
     font-size: clamp(68px, 5vw, 90px);
     font-weight: bold;
     color: #DAA425;
@@ -191,12 +187,12 @@ header {
 }
 
 .container {
-    flex: 1;
-     margin: 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 10px;
+     margin-top: 100px;
+    margin-bottom: 30px;
      /* margin-top: clamp(20px, 3vw, 50px);
      margin-bottom: clamp(20px, 3vw, 50px); */
     flex-wrap: nowrap;
