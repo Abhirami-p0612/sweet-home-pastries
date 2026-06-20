@@ -37,9 +37,6 @@ export default function SweetHome({
                         
                 </div>
                 <div className="cake-wrapper">
-                    <div className="sparkle sparkle1"></div>
-                    <div className="sparkle sparkle2"></div>
-                    <div className="sparkle sparkle3"></div>
                     <button onClick={Swap} className="explore">
                         <img 
                         src={cakes[currentCake].img} 
