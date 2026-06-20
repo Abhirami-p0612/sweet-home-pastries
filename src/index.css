@@ -581,7 +581,7 @@ header {
         gap: 14px;
         width: calc(100vw - 24px);
         margin: 0 auto;
-        padding: 12px 0 8px;
+        padding: 12px 30px 12px 12px;
         overflow-x: auto;
     }
     .collection::-webkit-scrollbar {
@@ -589,9 +589,9 @@ header {
 }
 
     .item {
-        width: 70%;
-        max-width: 320px;
-        padding: 14px;
+        width: 80%;
+        max-width: 220px;
+        padding: 14px 14px;
     }
 
     .item > img {
