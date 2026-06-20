@@ -865,8 +865,8 @@ header {
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
-        margin-top: 40px;
-        margin-bottom: 20px;
+        margin-top: 25px;
+        margin-bottom: 25px;
     }
 
     .sweet-home {
