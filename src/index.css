@@ -179,7 +179,7 @@ header {
 
 .sweet-home > p {
     margin-top: 10px;
-     font-size: clamp(18px, 1.3vw, 27px);
+     font-size: clamp(25px, 1.5vw, 27px);
     /* width: clamp(300px, 5.3vh,500px); */
      max-width: 900px;
     line-height: 1.7;
@@ -191,7 +191,7 @@ header {
     align-items: center;
     justify-content: space-between;
     gap: 10px;
-     margin-top: 100px;
+     margin-top: 50px;
     margin-bottom: 30px;
      /* margin-top: clamp(20px, 3vw, 50px);
      margin-bottom: clamp(20px, 3vw, 50px); */
